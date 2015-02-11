@@ -1,2 +1,6 @@
 # Socialite
-Combines person data from various social sites
+Combines basic person data from various social sites such as Twitter, Facebook, LinkedIn, Quora and Youtube.
+
+
+
+#Work currently in progress
