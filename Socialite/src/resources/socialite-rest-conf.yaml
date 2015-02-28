@@ -1,0 +1,3 @@
+http:
+    port: 2727
+    adminPort: 9091

@@ -1,7 +1,7 @@
 /**
  * Structure representing basic user LinkedIn account information.
  */
-struct LinkedInResponse {
+struct socialite.objects.LinkedInResponse {
 
     /**
      * The unique identifier for the linkedIn account.
@@ -43,7 +43,7 @@ struct LinkedInResponse {
 /**
  * Criteria defining the linkedIn response to retrieve.
  */
-struct LinkedInCriteria {
+struct socialite.objects.LinkedInCriteria {
 
     /**
      * The unique identifier of the person to retrieve the linkedIn account information.

@@ -1,7 +1,7 @@
 /**
  * Structure representing basic user Twitter account information.
  */
-struct TwitterResponse {
+struct socialite.TwitterResponse1 {
 
     /**
      * The unique identifier for the twitter account.
@@ -33,7 +33,7 @@ struct TwitterResponse {
 /**
  * Criteria defining the twitter response to retrieve.
  */
-struct TwitterCriteria {
+struct socialite.objects.TwitterCriteria {
 
     /**
      * The unique identifier of the person to retrieve the twitter account information.

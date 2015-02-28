@@ -1,7 +1,7 @@
 /**
  * Structure representing basic user Facebook account information.
  */
-struct FacebookResponse {
+struct socialite.objects.FacebookResponse {
 
     /**
      * The unique identifier for the facebook account.
@@ -38,7 +38,7 @@ struct FacebookResponse {
 /**
  * Criteria defining the facebook response to retrieve.
  */
-struct FacebookCriteria {
+struct socialite.objects.FacebookCriteria {
 
     /**
      * The unique identifier of the person to retrieve the facebook account information.

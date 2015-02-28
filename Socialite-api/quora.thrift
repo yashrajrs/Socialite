@@ -1,7 +1,7 @@
 /**
  * Structure representing basic user Quora account information.
  */
-struct QuoraResponse {
+struct socialite.objects.QuoraResponse {
 
     /**
      * The unique identifier for the quora account.
@@ -38,7 +38,7 @@ struct QuoraResponse {
 /**
  * Criteria defining the quora response to retrieve.
  */
-struct QuoraCriteria {
+struct socialite.objects.QuoraCriteria {
 
     /**
      * The unique identifier of the person to retrieve the quora account information.

@@ -1,7 +1,7 @@
 /**
  * Structure representing basic user Youtube account information.
  */
-struct YoutubeResponse {
+struct socialite.objects.YoutubeResponse {
 
     /**
      * The unique identifier for the youtube account.
@@ -33,7 +33,7 @@ struct YoutubeResponse {
 /**
  * Criteria defining the youtube response to retrieve.
  */
-struct YoutubeCriteria {
+struct socialite.objects.YoutubeCriteria {
 
     /**
      * The unique identifier of the person to retrieve the youtube account information.

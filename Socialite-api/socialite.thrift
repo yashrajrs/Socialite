@@ -7,7 +7,7 @@ include "youtube.thrift"
 /**
  * Structure representing basic user Socialite account information.
  */
-struct SocialiteResponse {
+struct socialite.objects.SocialiteResponse {
 
     /**
      * The unique identifier for the socialite account.
@@ -17,34 +17,34 @@ struct SocialiteResponse {
     /**
      * The facebook basic information of the user.
      */
-     2: optional facebook.FacebookResponse facebookResponse;
+     2: optional facebook.socialite.objects.FacebookResponse facebookResponse;
 
     /**
      * The facebook basic information of the user.
      */
-     3: optional linkedIn.LinkedInResponse linkedInResponse;
+     3: optional linkedIn.socialite.objects.LinkedInResponse linkedInResponse;
 
     /**
      * The facebook basic information of the user.
      */
-     4: optional quora.QuoraResponse quoraResponse;
+     4: optional quora.socialite.objects.QuoraResponse quoraResponse;
 
     /**
      * The facebook basic information of the user.
      */
-     5: optional twitter.TwitterResponse twitterResponse;
+     5: optional twitter.socialite.TwitterResponse1 twitterResponse;
 
     /**
      * The facebook basic information of the user.
      */
-     6: optional youtube.YoutubeResponse youtubeResponse;
+     6: optional youtube.socialite.objects.YoutubeResponse youtubeResponse;
 
 }
 
 /**
  * Criteria defining the socialite response to retrieve.
  */
-struct SocialiteCriteria {
+struct socialite.objects.SocialiteCriteria {
 
     /**
      * The unique identifier of the person to retrieve the socialite account information.
